@@ -1,0 +1,96 @@
+{
+    "name": "pigg life",
+    "version": "2.0",
+    "manifest_version": 2,
+    "description": "",
+    "theme": {
+        "images": {
+            /* TODO: theme_ntp_attribution:  */
+            /* TODO: theme_frame_overlay: (名前からすると、フレーム上に並ぶ模様か？) */
+
+/*
+
+  IDR_THEME_FRAME,
+  IDR_THEME_FRAME_INACTIVE,
+  IDR_THEME_FRAME_INCOGNITO,
+  IDR_THEME_FRAME_INCOGNITO_INACTIVE,
+  IDR_THEME_TOOLBAR,
+
+// タブ背景系
+  IDR_THEME_TAB_BACKGROUND,
+  IDR_THEME_TAB_BACKGROUND_INCOGNITO,	お忍び？
+  IDR_THEME_TAB_BACKGROUND_V,
+
+  IDR_THEME_NTP_BACKGROUND,
+  IDR_THEME_FRAME_OVERLAY,
+  IDR_THEME_FRAME_OVERLAY_INACTIVE,
+  IDR_THEME_BUTTON_BACKGROUND,
+  IDR_THEME_NTP_ATTRIBUTION,
+  IDR_THEME_WINDOW_CONTROL_BACKGROUND
+
+*/
+
+            /* theme_ntp_background: 新規タブを開いた時のウィンドウ背景画像 */
+            "theme_ntp_background": "images/theme_ntp_background.jpg",
+            /* theme_frame: フレーム(タブが並んでいる下地の部分)の背景画像 */
+            "theme_frame": "images/test1.png",
+            /* theme_toolbar: アクティブなタブや、URLバーやブックマーク等が並ぶツールバー部分の背景画像 */
+            "theme_toolbar": "images/test1.png",
+            /* theme_tab_background: アクティブでないタブの背景 */
+            "theme_tab_background": "images/test1.png",
+            "theme_tab_background_incognito": "images/test0.png"
+        },
+        "colors": {
+            "tab_text": [
+                255,
+                255,
+                255
+            ],
+            "tab_background_text": [
+                255,
+                255,
+                255
+            ],
+            "bookmark_text": [
+                255,
+                255,
+                255
+            ],
+            "frame": [
+                120,
+                203,
+                118
+            ],
+            "ntp_text": [
+                0,
+                0,
+                0
+            ],
+            "ntp_link": [
+                0,
+                0,
+                0
+            ],
+            "ntp_link_underline": [
+                0,
+                0,
+                0
+            ],
+            "toolbar": [
+                52,
+                127,
+                50,
+                0.6
+            ],
+            "ntp_background": [
+                255,
+                255,
+                255
+            ]
+        },
+        "properties": {
+            "ntp_background_repeat": "no-repeat",
+            "ntp_background_alignment": "center top"
+        }
+    }
+}
